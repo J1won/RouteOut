@@ -1,0 +1,146 @@
+@import url(//db.onlinewebfonts.com/c/6650021ca0704cba7b377bf4c0bbe673?family=DSariW01-Heavy);
+@font-face {
+     font-family: "DSariW01-Heavy"; 
+     src: url("//db.onlinewebfonts.com/t/6650021ca0704cba7b377bf4c0bbe673.eot"); 
+     src: url("//db.onlinewebfonts.com/t/6650021ca0704cba7b377bf4c0bbe673.eot?#iefix") format("embedded-opentype"), 
+     url("//db.onlinewebfonts.com/t/6650021ca0704cba7b377bf4c0bbe673.woff2") format("woff2"), 
+     url("//db.onlinewebfonts.com/t/6650021ca0704cba7b377bf4c0bbe673.woff") format("woff"), 
+     url("//db.onlinewebfonts.com/t/6650021ca0704cba7b377bf4c0bbe673.ttf") format("truetype"), 
+     url("//db.onlinewebfonts.com/t/6650021ca0704cba7b377bf4c0bbe673.svg#DSariW01-Heavy") format("svg"); 
+}
+
+body{
+     background-image: url("image.png");
+     background-color: #cccccc;
+     margin: 0;
+     font-family: DSariW01-Heavy;
+}
+
+body:not(.acb) {
+     font-size: 200%;
+}
+
+.pg1-content{
+     margin-left: 300px;
+     width: 700px;
+}
+.pg1-input{
+     width: 700px;
+}
+.pg1-input input {
+     font-size: large;
+}
+.pg1-input button {
+     font-size: large;
+}
+#map {
+     margin: 10px;
+     height: 420px;
+     top: 0;
+     bottom: 0;
+     width: 100%;
+}
+
+.tab {
+     margin: 10px;
+     overflow: hidden;
+     border: 1px solid rgb(0, 0, 0);
+     background-color: #b6b6b6;
+}
+
+     /* Style the buttons inside the tab */
+.tab button {
+     background-color: inherit;
+     float: left;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     transition: 0.3s;
+     font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+     background-color: rgb(190, 190, 190);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+     background-color: rgb(158, 158, 158);
+}
+
+/* Style the tab content */
+.tabcontent {
+     display: none;
+     padding: 6px 12px;
+     border: 1px solid rgb(0, 0, 0);
+     border-top: none;
+}
+
+/* Style the Logo Image */
+.logoImage {
+     margin: 0;
+     padding-top: 8px;
+     padding-right: 30px;
+     padding-left: 5px;
+}
+
+/* Style to navigation bar */
+.nav {
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: gray;
+     overflow: hidden;
+     margin: 0;
+     border: 0;
+     padding: 0;
+     display: inline-flex;
+}
+
+/* Style nav Buttons */
+.nav a:not(:first-of-type) {
+     color: black;
+     text-align: center;
+     text-decoration: none;
+     padding-right: 15px;
+     padding-left: 15px;
+     font-size: xx-large;
+     border-right: 2px solid black;
+     border-left: 2px solid black;
+     height: 75px;
+     line-height: 75px;
+}
+
+.nav a:nth-last-child(2) {
+     border-left: none;
+}
+
+/* Style all elements of nav */
+.nav a {
+     vertical-align: middle;
+}
+
+/* Style hover color */
+.nav a:not(:first-of-type):hover {
+     background-color: rgb(108, 108, 108);
+}
+
+/* Style accessibility Image */
+.acbImage {
+     height: 68px;
+     float: right;
+}
+
+/* Style accessibility Button */
+.acb {
+     top: 0;
+     right: 0;
+     position: absolute;
+     background-color: green;
+}
+
+.acb:hover {
+    background-color: rgb(0, 78, 0);
+}
